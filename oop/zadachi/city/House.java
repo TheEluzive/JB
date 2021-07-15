@@ -10,4 +10,16 @@ public class House implements IHouse{
         flatList.add(flat);
 
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public ArrayList<Flat> getFlatList() {
+        return flatList;
+    }
+
+    public House(String address) {
+        this.address = address;
+    }
 }
