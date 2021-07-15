@@ -17,12 +17,12 @@ public class Computer implements IComputer {
 
     @Override
     public void on() {
-        System.out.println("Компьютер включился" +  name +", используется монитор" + monitor);
-
+        System.out.println("Компьютер включился " + name + ", используется монитор " + monitor);
     }
 
     @Override
     public void off() {
-
+        System.out.println("Компьютер выключился " + name + ", используется монитор " + monitor);
     }
+
 }
